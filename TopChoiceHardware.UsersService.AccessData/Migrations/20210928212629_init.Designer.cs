@@ -9,7 +9,7 @@ using TopChoiceHardware.UsersService.AccessData;
 namespace TopChoiceHardware.UsersService.AccessData.Migrations
 {
     [DbContext(typeof(UsuariosContext))]
-    [Migration("20210921212849_init")]
+    [Migration("20210928212629_init")]
     partial class init
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)

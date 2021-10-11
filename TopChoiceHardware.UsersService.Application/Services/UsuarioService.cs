@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using TopChoiceHardware.UsersService.Application.Validations;
 using TopChoiceHardware.UsersService.Domain.Commands;
 using TopChoiceHardware.UsersService.Domain.DTOs;
 using TopChoiceHardware.UsersService.Domain.Entities;
@@ -11,20 +12,24 @@ namespace TopChoiceHardware.UsersService.Application.Services
 {
     public interface IUsuarioService
     {
-        Usuario CreateUsuario(UsuarioDto usuario);
+        Usuario CreateUsuario(UsuarioDtoForCreation usuario);
         List<Usuario> GetUsuarios();
         Usuario GetUsuarioById(int id);
+
+        void UpdateUsuario(Usuario usuario);
     }
     public class UsuarioService : IUsuarioService
     {
-        private IGenericRepository _repository;
+        private readonly IUsuarioRepository _repository;
+        private readonly IUsuarioValidations _validations;
 
-        public UsuarioService(IGenericRepository repository)
+        public UsuarioService(IUsuarioRepository repository, IUsuarioValidations validations)
         {
             _repository = repository;
+            _validations = validations;
         }
 
-        public Usuario CreateUsuario(UsuarioDto usuario)
+        public Usuario CreateUsuario(UsuarioDtoForCreation usuario)
         {
             var entity = new Usuario
             {
@@ -37,18 +42,28 @@ namespace TopChoiceHardware.UsersService.Application.Services
                 RoleId = usuario.RoleId
             };
 
-            _repository.Add(entity);
-            return entity;
+            if(_validations.DniInDb(entity.DNI) && _validations.EmailInDB(entity.Email)) 
+            {
+                _repository.Add(entity);
+                return entity;
+            }
+
+            return null;
         }
 
         public List<Usuario> GetUsuarios()
         {
-            return _repository.GetAll<Usuario>();
+            return _repository.GetAllUsuarios();
         }
 
         public Usuario GetUsuarioById(int id)
         {
-            return _repository.GetById<Usuario>(id);
+            return _repository.GetUsuarioById(id);
+        }
+
+        public void UpdateUsuario(Usuario usuario)
+        {
+            _repository.Update(usuario);
         }
     }
 }

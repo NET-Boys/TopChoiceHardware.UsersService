@@ -15,6 +15,7 @@ using System.Threading.Tasks;
 using TopChoiceHardware.UsersService.AccessData;
 using TopChoiceHardware.UsersService.AccessData.Commands;
 using TopChoiceHardware.UsersService.Application.Services;
+using TopChoiceHardware.UsersService.Application.Validations;
 using TopChoiceHardware.UsersService.Domain.Commands;
 using TopChoiceHardware.UsersService.Domain.Entities;
 
@@ -40,8 +41,10 @@ namespace TopChoiceHardware.UsersService
             });
             var connectionString = Configuration.GetSection("ConnectionString").Value;
             services.AddDbContext<UsuariosContext>(options => options.UseSqlServer(connectionString));
-            services.AddTransient<IGenericRepository, GenericRepository>();
+            services.AddTransient<IUsuarioRepository, UsuarioRepository>();
             services.AddTransient<IUsuarioService, UsuarioService>();
+            services.AddTransient<IUsuarioValidations, UsuarioValidations>();
+            services.AddAutoMapper(typeof(Startup));
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
