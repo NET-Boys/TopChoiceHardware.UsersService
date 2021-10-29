@@ -16,6 +16,7 @@ namespace TopChoiceHardware.UsersService.Domain.Commands
         void DeleteById(int id);
         Usuario GetUsuarioById(int id);
         Usuario GetUsuarioByEmail(string email);
+        Usuario GetUsuarioByEmailAndPassword(string email, string password);
         Usuario GetUsuarioByDni(string dni);
     }
 }

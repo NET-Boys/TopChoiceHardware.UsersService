@@ -16,6 +16,8 @@ namespace TopChoiceHardware.UsersService.Application.Services
         List<Usuario> GetUsuarios();
         Usuario GetUsuarioById(int id);
 
+        Usuario GetUsuarioByEmailAndPassword(string email, string password);
+
         void UpdateUsuario(Usuario usuario);
     }
     public class UsuarioService : IUsuarioService
@@ -64,6 +66,11 @@ namespace TopChoiceHardware.UsersService.Application.Services
         public void UpdateUsuario(Usuario usuario)
         {
             _repository.Update(usuario);
+        }
+
+        public Usuario GetUsuarioByEmailAndPassword(string email, string password)
+        {
+            return _repository.GetUsuarioByEmailAndPassword(email, password);
         }
     }
 }

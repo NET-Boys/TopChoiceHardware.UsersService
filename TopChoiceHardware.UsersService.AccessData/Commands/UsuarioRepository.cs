@@ -51,6 +51,11 @@ namespace TopChoiceHardware.UsersService.AccessData.Commands
             return _context.Usuarios.SingleOrDefault(Usuario => Usuario.Email == email);
         }
 
+        public Usuario GetUsuarioByEmailAndPassword(string email, string password)
+        {
+            return _context.Usuarios.SingleOrDefault(Usuario => Usuario.Email == email && Usuario.Password == password);
+        }
+
         public Usuario GetUsuarioById(int id)
         {
             return _context.Usuarios.Find(id);

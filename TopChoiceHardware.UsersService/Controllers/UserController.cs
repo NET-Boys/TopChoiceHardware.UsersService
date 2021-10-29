@@ -29,7 +29,7 @@ namespace TopChoiceHardware.UsersService.Controllers
             try
             {
                 var usuarioEntity = _service.CreateUsuario(usuario);
-                
+
                 if (usuarioEntity != null)
                 {
                     var usuarioCreado = _mapper.Map<UsuarioDtoForDisplay>(usuarioEntity);
@@ -75,7 +75,7 @@ namespace TopChoiceHardware.UsersService.Controllers
             {
                 var usuario = _service.GetUsuarioById(id);
                 var usuarioMapeado = _mapper.Map<UsuarioDtoForDisplay>(usuario);
-                
+
                 if (usuario == null)
                 {
                     return NotFound();
@@ -115,6 +115,29 @@ namespace TopChoiceHardware.UsersService.Controllers
                 _service.UpdateUsuario(usuarioEntity);
 
                 return NoContent();
+            }
+            catch (Exception)
+            {
+                return StatusCode(500, "Internal server error");
+            }
+        }
+
+        [HttpPost("login")]
+        [ProducesResponseType(StatusCodes.Status200OK)]
+        [ProducesResponseType(StatusCodes.Status404NotFound)]
+        [ProducesResponseType(StatusCodes.Status500InternalServerError)]
+        public IActionResult UserLogin(LoginDto loginUser)
+        {
+            try
+            {
+                var usuario = _service.GetUsuarioByEmailAndPassword(loginUser.Email, loginUser.Password);
+
+                if(usuario != null)
+                {
+                    return new JsonResult(new SuccesfulLoginDto()) {StatusCode = 201 };
+                }
+
+                return new JsonResult(new UnsuccesfulLoginDto()) { StatusCode = 404 };
             }
             catch (Exception)
             {

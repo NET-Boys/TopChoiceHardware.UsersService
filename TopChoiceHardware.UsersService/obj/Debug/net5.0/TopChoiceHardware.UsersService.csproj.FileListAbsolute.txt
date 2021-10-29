@@ -26,7 +26,6 @@ C:\Users\kerne\Desktop\Top Choice Users MicroService\TopChoiceHardware.UsersServ
 C:\Users\kerne\Desktop\Top Choice Users MicroService\TopChoiceHardware.UsersService\TopChoiceHardware.UsersService\obj\Debug\net5.0\staticwebassets\TopChoiceHardware.UsersService.StaticWebAssets.xml
 C:\Users\kerne\Desktop\Top Choice Users MicroService\TopChoiceHardware.UsersService\TopChoiceHardware.UsersService\obj\Debug\net5.0\scopedcss\bundle\TopChoiceHardware.UsersService.styles.css
 C:\Users\kerne\Desktop\Top Choice Users MicroService\TopChoiceHardware.UsersService\TopChoiceHardware.UsersService\obj\Debug\net5.0\TopChoiceHardware.UsersService.RazorTargetAssemblyInfo.cache
-C:\Users\kerne\Desktop\Top Choice Users MicroService\TopChoiceHardware.UsersService\TopChoiceHardware.UsersService\obj\Debug\net5.0\TopChoiceHardware.UsersService.csproj.CopyComplete
 C:\Users\kerne\Desktop\Top Choice Users MicroService\TopChoiceHardware.UsersService\TopChoiceHardware.UsersService\obj\Debug\net5.0\TopChoiceHardware.UsersService.dll
 C:\Users\kerne\Desktop\Top Choice Users MicroService\TopChoiceHardware.UsersService\TopChoiceHardware.UsersService\obj\Debug\net5.0\ref\TopChoiceHardware.UsersService.dll
 C:\Users\kerne\Desktop\Top Choice Users MicroService\TopChoiceHardware.UsersService\TopChoiceHardware.UsersService\obj\Debug\net5.0\TopChoiceHardware.UsersService.pdb
@@ -67,3 +66,4 @@ C:\Users\kerne\Desktop\Top Choice Users MicroService\TopChoiceHardware.UsersServ
 C:\Users\kerne\Desktop\Top Choice Users MicroService\TopChoiceHardware.UsersService\TopChoiceHardware.UsersService\bin\Debug\net5.0\TopChoiceHardware.UsersService.AccessData.pdb
 C:\Users\kerne\Desktop\Top Choice Users MicroService\TopChoiceHardware.UsersService\TopChoiceHardware.UsersService\bin\Debug\net5.0\AutoMapper.dll
 C:\Users\kerne\Desktop\Top Choice Users MicroService\TopChoiceHardware.UsersService\TopChoiceHardware.UsersService\bin\Debug\net5.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+C:\Users\kerne\Desktop\Top Choice Users MicroService\TopChoiceHardware.UsersService\TopChoiceHardware.UsersService\obj\Debug\net5.0\TopChoiceHardware.UsersService.csproj.CopyComplete
