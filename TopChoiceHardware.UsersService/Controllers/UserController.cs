@@ -23,7 +23,7 @@ namespace TopChoiceHardware.UsersService.Controllers
         }
 
         [HttpPost]
-        [ProducesResponseType(typeof(UsuarioDtoForDisplay), StatusCodes.Status201Created)]
+        [ProducesResponseType(typeof(SuccesfulRegisterDto), StatusCodes.Status201Created)]
         public IActionResult Post(UsuarioDtoForCreation usuario)
         {
             try
@@ -32,11 +32,10 @@ namespace TopChoiceHardware.UsersService.Controllers
 
                 if (usuarioEntity != null)
                 {
-                    var usuarioCreado = _mapper.Map<UsuarioDtoForDisplay>(usuarioEntity);
-                    return Created("~api/usuario/", usuarioCreado);
+                    return new JsonResult(new SuccesfulRegisterDto()) { StatusCode = 201 };
                 }
 
-                return Conflict("Error, ya existe un usuario registrado con el email y / o dni ingresados.");
+                return new JsonResult(new UnsuccesfulRegisterDto()) { StatusCode = 409 };
             }
             catch (Exception e)
             {
@@ -95,7 +94,7 @@ namespace TopChoiceHardware.UsersService.Controllers
         [ProducesResponseType(StatusCodes.Status400BadRequest)]
         [ProducesResponseType(StatusCodes.Status404NotFound)]
         [ProducesResponseType(StatusCodes.Status500InternalServerError)]
-        public IActionResult UpdatePelicula(int id, [FromBody] UsuarioDtoForCreation usuario)
+        public IActionResult UpdateUsuario(int id, [FromBody] UsuarioDtoForCreation usuario)
         {
             try
             {
