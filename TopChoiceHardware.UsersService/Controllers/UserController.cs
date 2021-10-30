@@ -55,7 +55,7 @@ namespace TopChoiceHardware.UsersService.Controllers
                 var usuarios = _service.GetUsuarios();
                 var usuariosMapeados = _mapper.Map<List<UsuarioDtoForDisplay>>(usuarios);
 
-                return Ok(usuariosMapeados);
+                return new JsonResult(usuariosMapeados) {StatusCode = 200 };
             }
             catch (Exception)
             {
@@ -80,7 +80,7 @@ namespace TopChoiceHardware.UsersService.Controllers
                     return NotFound();
                 }
 
-                return Ok(usuarioMapeado);
+                return new JsonResult(usuarioMapeado) {StatusCode = 200 };
             }
             catch (Exception)
             {

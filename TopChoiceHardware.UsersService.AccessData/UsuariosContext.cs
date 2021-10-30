@@ -62,6 +62,70 @@ namespace TopChoiceHardware.UsersService.AccessData
                     .HasForeignKey(d => d.RoleId)
                     .OnDelete(DeleteBehavior.ClientSetNull);
             });
+
+            modelBuilder.Entity<Rol>().HasData(
+                new Rol
+                {
+                    RoleId = 1,
+                    Name = "Admin",
+                    Description = "Admin Role"
+                },
+                new Rol
+                {
+                    RoleId = 2,
+                    Name = "User",
+                    Description = "User Role"
+                }
+            );
+
+            modelBuilder.Entity<Usuario>().HasData(
+                new Usuario
+                {
+                    UserId = 1,
+                    Name = "Matías Salinas",
+                    Username = "Coderboy",
+                    DNI = "35189786",
+                    Email = "msalinas@topchoice.com",
+                    Password = "verysafepassword",
+                    AddressId = 1,
+                    RoleId = 1
+                },
+                new Usuario
+                {
+                    UserId = 2,
+                    Name = "Rodrigo Lago",
+                    Username = "Rodri CSGO",
+                    DNI = "44878545",
+                    Email = "rlago@topchoice.com",
+                    Password = "rodripassword",
+                    AddressId = 2,
+                    RoleId = 1
+                },
+                new Usuario
+                {
+                    UserId = 3,
+                    Name = "Claudio Damico",
+                    Username = "cdamico",
+                    DNI = "28956521",
+                    Email = "cdamico@topchoice.com",
+                    Password = "damico1234",
+                    AddressId = 3,
+                    RoleId = 2
+                },
+                new Usuario
+                {
+                    UserId = 4,
+                    Name = "Jose Luis Fernández",
+                    Username = "Josele",
+                    DNI = "48555222",
+                    Email = "jlfernandez@topchoice.com",
+                    Password = "badpassword",
+                    AddressId = 4,
+                    RoleId = 2
+                }
+
+            );
+
         }
 
         public virtual DbSet<Rol> Roles { get; set; }

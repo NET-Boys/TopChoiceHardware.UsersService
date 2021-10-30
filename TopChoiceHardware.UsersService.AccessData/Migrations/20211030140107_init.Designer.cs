@@ -9,7 +9,7 @@ using TopChoiceHardware.UsersService.AccessData;
 namespace TopChoiceHardware.UsersService.AccessData.Migrations
 {
     [DbContext(typeof(UsuariosContext))]
-    [Migration("20210928212629_init")]
+    [Migration("20211030140107_init")]
     partial class init
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -40,6 +40,20 @@ namespace TopChoiceHardware.UsersService.AccessData.Migrations
                     b.HasKey("RoleId");
 
                     b.ToTable("Roles");
+
+                    b.HasData(
+                        new
+                        {
+                            RoleId = 1,
+                            Description = "Admin Role",
+                            Name = "Admin"
+                        },
+                        new
+                        {
+                            RoleId = 2,
+                            Description = "User Role",
+                            Name = "User"
+                        });
                 });
 
             modelBuilder.Entity("TopChoiceHardware.UsersService.Domain.Entities.Usuario", b =>
@@ -88,6 +102,52 @@ namespace TopChoiceHardware.UsersService.AccessData.Migrations
                     b.HasIndex("RoleId");
 
                     b.ToTable("Usuarios");
+
+                    b.HasData(
+                        new
+                        {
+                            UserId = 1,
+                            AddressId = 1,
+                            DNI = "35189786",
+                            Email = "msalinas@topchoice.com",
+                            Name = "Matías Salinas",
+                            Password = "verysafepassword",
+                            RoleId = 1,
+                            Username = "Coderboy"
+                        },
+                        new
+                        {
+                            UserId = 2,
+                            AddressId = 2,
+                            DNI = "44878545",
+                            Email = "rlago@topchoice.com",
+                            Name = "Rodrigo Lago",
+                            Password = "rodripassword",
+                            RoleId = 1,
+                            Username = "Rodri CSGO"
+                        },
+                        new
+                        {
+                            UserId = 3,
+                            AddressId = 3,
+                            DNI = "28956521",
+                            Email = "cdamico@topchoice.com",
+                            Name = "Claudio Damico",
+                            Password = "damico1234",
+                            RoleId = 2,
+                            Username = "cdamico"
+                        },
+                        new
+                        {
+                            UserId = 4,
+                            AddressId = 4,
+                            DNI = "48555222",
+                            Email = "jlfernandez@topchoice.com",
+                            Name = "Jose Luis Fernández",
+                            Password = "badpassword",
+                            RoleId = 2,
+                            Username = "Josele"
+                        });
                 });
 
             modelBuilder.Entity("TopChoiceHardware.UsersService.Domain.Entities.Usuario", b =>

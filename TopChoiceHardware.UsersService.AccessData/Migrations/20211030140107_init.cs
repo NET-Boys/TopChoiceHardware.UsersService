@@ -45,6 +45,27 @@ namespace TopChoiceHardware.UsersService.AccessData.Migrations
                         onDelete: ReferentialAction.Restrict);
                 });
 
+            migrationBuilder.InsertData(
+                table: "Roles",
+                columns: new[] { "RoleId", "Description", "Name" },
+                values: new object[] { 1, "Admin Role", "Admin" });
+
+            migrationBuilder.InsertData(
+                table: "Roles",
+                columns: new[] { "RoleId", "Description", "Name" },
+                values: new object[] { 2, "User Role", "User" });
+
+            migrationBuilder.InsertData(
+                table: "Usuarios",
+                columns: new[] { "UserId", "AddressId", "DNI", "Email", "Name", "Password", "RoleId", "Username" },
+                values: new object[,]
+                {
+                    { 1, 1, "35189786", "msalinas@topchoice.com", "Matías Salinas", "verysafepassword", 1, "Coderboy" },
+                    { 2, 2, "44878545", "rlago@topchoice.com", "Rodrigo Lago", "rodripassword", 1, "Rodri CSGO" },
+                    { 3, 3, "28956521", "cdamico@topchoice.com", "Claudio Damico", "damico1234", 2, "cdamico" },
+                    { 4, 4, "48555222", "jlfernandez@topchoice.com", "Jose Luis Fernández", "badpassword", 2, "Josele" }
+                });
+
             migrationBuilder.CreateIndex(
                 name: "IX_Usuarios_RoleId",
                 table: "Usuarios",

@@ -13,7 +13,6 @@ C:\Users\kerne\Desktop\Top Choice Users MicroService\TopChoiceHardware.UsersServ
 C:\Users\kerne\Desktop\Top Choice Users MicroService\TopChoiceHardware.UsersService\TopChoiceHardware.UsersService.AccessData\obj\Debug\net5.0\TopChoiceHardware.UsersService.AccessData.AssemblyInfoInputs.cache
 C:\Users\kerne\Desktop\Top Choice Users MicroService\TopChoiceHardware.UsersService\TopChoiceHardware.UsersService.AccessData\obj\Debug\net5.0\TopChoiceHardware.UsersService.AccessData.AssemblyInfo.cs
 C:\Users\kerne\Desktop\Top Choice Users MicroService\TopChoiceHardware.UsersService\TopChoiceHardware.UsersService.AccessData\obj\Debug\net5.0\TopChoiceHardware.UsersService.AccessData.csproj.CoreCompileInputs.cache
-C:\Users\kerne\Desktop\Top Choice Users MicroService\TopChoiceHardware.UsersService\TopChoiceHardware.UsersService.AccessData\obj\Debug\net5.0\TopChoiceHardware.UsersService.AccessData.csproj.CopyComplete
 C:\Users\kerne\Desktop\Top Choice Users MicroService\TopChoiceHardware.UsersService\TopChoiceHardware.UsersService.AccessData\obj\Debug\net5.0\TopChoiceHardware.UsersService.AccessData.dll
 C:\Users\kerne\Desktop\Top Choice Users MicroService\TopChoiceHardware.UsersService\TopChoiceHardware.UsersService.AccessData\obj\Debug\net5.0\ref\TopChoiceHardware.UsersService.AccessData.dll
 C:\Users\kerne\Desktop\Top Choice Users MicroService\TopChoiceHardware.UsersService\TopChoiceHardware.UsersService.AccessData\obj\Debug\net5.0\TopChoiceHardware.UsersService.AccessData.pdb
