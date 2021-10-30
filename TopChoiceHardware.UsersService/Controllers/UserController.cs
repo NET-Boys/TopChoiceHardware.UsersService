@@ -32,7 +32,7 @@ namespace TopChoiceHardware.UsersService.Controllers
 
                 if (usuarioEntity != null)
                 {
-                    return new JsonResult(new SuccesfulRegisterDto()) { StatusCode = 201 };
+                    return new JsonResult(new SuccesfulRegisterDto(usuarioEntity)) { StatusCode = 201 };
                 }
 
                 return new JsonResult(new UnsuccesfulRegisterDto()) { StatusCode = 409 };
