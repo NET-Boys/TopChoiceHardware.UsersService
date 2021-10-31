@@ -9,7 +9,7 @@ using TopChoiceHardware.UsersService.AccessData;
 namespace TopChoiceHardware.UsersService.AccessData.Migrations
 {
     [DbContext(typeof(UsuariosContext))]
-    [Migration("20211030140107_init")]
+    [Migration("20211031043928_init")]
     partial class init
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -63,9 +63,6 @@ namespace TopChoiceHardware.UsersService.AccessData.Migrations
                         .HasColumnType("int")
                         .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
 
-                    b.Property<int>("AddressId")
-                        .HasColumnType("int");
-
                     b.Property<string>("DNI")
                         .IsRequired()
                         .HasMaxLength(8)
@@ -107,7 +104,6 @@ namespace TopChoiceHardware.UsersService.AccessData.Migrations
                         new
                         {
                             UserId = 1,
-                            AddressId = 1,
                             DNI = "35189786",
                             Email = "msalinas@topchoice.com",
                             Name = "Matías Salinas",
@@ -118,7 +114,6 @@ namespace TopChoiceHardware.UsersService.AccessData.Migrations
                         new
                         {
                             UserId = 2,
-                            AddressId = 2,
                             DNI = "44878545",
                             Email = "rlago@topchoice.com",
                             Name = "Rodrigo Lago",
@@ -129,7 +124,6 @@ namespace TopChoiceHardware.UsersService.AccessData.Migrations
                         new
                         {
                             UserId = 3,
-                            AddressId = 3,
                             DNI = "28956521",
                             Email = "cdamico@topchoice.com",
                             Name = "Claudio Damico",
@@ -140,7 +134,6 @@ namespace TopChoiceHardware.UsersService.AccessData.Migrations
                         new
                         {
                             UserId = 4,
-                            AddressId = 4,
                             DNI = "48555222",
                             Email = "jlfernandez@topchoice.com",
                             Name = "Jose Luis Fernández",

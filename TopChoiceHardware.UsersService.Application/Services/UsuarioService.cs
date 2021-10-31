@@ -38,7 +38,6 @@ namespace TopChoiceHardware.UsersService.Application.Services
                 Name = usuario.Name,
                 Username = usuario.Username,
                 DNI = usuario.DNI,
-                AddressId = usuario.AddressId,
                 Email = usuario.Email,
                 Password = usuario.Password,
                 RoleId = usuario.RoleId

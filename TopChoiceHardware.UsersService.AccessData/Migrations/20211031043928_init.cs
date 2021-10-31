@@ -31,7 +31,6 @@ namespace TopChoiceHardware.UsersService.AccessData.Migrations
                     DNI = table.Column<string>(type: "char(8)", unicode: false, fixedLength: true, maxLength: 8, nullable: false),
                     Email = table.Column<string>(type: "nvarchar(50)", maxLength: 50, nullable: false),
                     Password = table.Column<string>(type: "nvarchar(50)", maxLength: 50, nullable: false),
-                    AddressId = table.Column<int>(type: "int", nullable: false),
                     RoleId = table.Column<int>(type: "int", nullable: false)
                 },
                 constraints: table =>
@@ -57,13 +56,13 @@ namespace TopChoiceHardware.UsersService.AccessData.Migrations
 
             migrationBuilder.InsertData(
                 table: "Usuarios",
-                columns: new[] { "UserId", "AddressId", "DNI", "Email", "Name", "Password", "RoleId", "Username" },
+                columns: new[] { "UserId", "DNI", "Email", "Name", "Password", "RoleId", "Username" },
                 values: new object[,]
                 {
-                    { 1, 1, "35189786", "msalinas@topchoice.com", "Matías Salinas", "verysafepassword", 1, "Coderboy" },
-                    { 2, 2, "44878545", "rlago@topchoice.com", "Rodrigo Lago", "rodripassword", 1, "Rodri CSGO" },
-                    { 3, 3, "28956521", "cdamico@topchoice.com", "Claudio Damico", "damico1234", 2, "cdamico" },
-                    { 4, 4, "48555222", "jlfernandez@topchoice.com", "Jose Luis Fernández", "badpassword", 2, "Josele" }
+                    { 1, "35189786", "msalinas@topchoice.com", "Matías Salinas", "verysafepassword", 1, "Coderboy" },
+                    { 2, "44878545", "rlago@topchoice.com", "Rodrigo Lago", "rodripassword", 1, "Rodri CSGO" },
+                    { 3, "28956521", "cdamico@topchoice.com", "Claudio Damico", "damico1234", 2, "cdamico" },
+                    { 4, "48555222", "jlfernandez@topchoice.com", "Jose Luis Fernández", "badpassword", 2, "Josele" }
                 });
 
             migrationBuilder.CreateIndex(

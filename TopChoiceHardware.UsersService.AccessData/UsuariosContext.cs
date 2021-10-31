@@ -87,7 +87,6 @@ namespace TopChoiceHardware.UsersService.AccessData
                     DNI = "35189786",
                     Email = "msalinas@topchoice.com",
                     Password = "verysafepassword",
-                    AddressId = 1,
                     RoleId = 1
                 },
                 new Usuario
@@ -98,7 +97,6 @@ namespace TopChoiceHardware.UsersService.AccessData
                     DNI = "44878545",
                     Email = "rlago@topchoice.com",
                     Password = "rodripassword",
-                    AddressId = 2,
                     RoleId = 1
                 },
                 new Usuario
@@ -109,7 +107,6 @@ namespace TopChoiceHardware.UsersService.AccessData
                     DNI = "28956521",
                     Email = "cdamico@topchoice.com",
                     Password = "damico1234",
-                    AddressId = 3,
                     RoleId = 2
                 },
                 new Usuario
@@ -120,7 +117,6 @@ namespace TopChoiceHardware.UsersService.AccessData
                     DNI = "48555222",
                     Email = "jlfernandez@topchoice.com",
                     Password = "badpassword",
-                    AddressId = 4,
                     RoleId = 2
                 }
 
