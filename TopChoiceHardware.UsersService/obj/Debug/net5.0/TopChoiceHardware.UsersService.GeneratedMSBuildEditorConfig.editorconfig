@@ -7,4 +7,4 @@ build_property.PublishSingleFile =
 build_property.IncludeAllContentForSelfExtract = 
 build_property._SupportedPlatformList = Android,iOS,Linux,macOS,Windows
 build_property.RootNamespace = TopChoiceHardware.UsersService
-build_property.ProjectDir = C:\Users\kerne\Desktop\Top Choice Users MicroService\TopChoiceHardware.UsersService\TopChoiceHardware.UsersService\
+build_property.ProjectDir = C:\Users\kerne\Desktop\TopChoiceHardware.UsersService-main\TopChoiceHardware.UsersService\

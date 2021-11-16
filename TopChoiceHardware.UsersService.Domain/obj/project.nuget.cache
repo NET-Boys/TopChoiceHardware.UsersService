@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "0i7Wx1EEyzetWbJuXDRxg0HWtv5Tefq13dzrAcsWlKz6kTdvO7ShKT0hovOKHFSW5hfqJGQX7iKhzKdA0KSgIg==",
+  "dgSpecHash": "OhEOfBWRKI6zmldMXZmfZ4bdQPoCZxAJ1NRhL3iogrqNNNbMtssNwi8P1RKCuEpWHwpUZlAongiZpjVhT2W0mQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\kerne\\Desktop\\Top Choice Users MicroService\\TopChoiceHardware.UsersService\\TopChoiceHardware.UsersService.Domain\\TopChoiceHardware.UsersService.Domain.csproj",
+  "projectFilePath": "C:\\Users\\kerne\\Desktop\\TopChoiceHardware.UsersService-main\\TopChoiceHardware.UsersService.Domain\\TopChoiceHardware.UsersService.Domain.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

@@ -10,11 +10,13 @@ namespace TopChoiceHardware.UsersService.Domain.DTOs
     {
         public string Message { get; set; }
         public string Status { get; set; }
+        public string Token { get; set; }
 
-        public SuccesfulLoginDto()
+        public SuccesfulLoginDto(string token)
         {
             Message = "You have logged in succesfully";
             Status = "Success";
+            Token = token;
         }
     }
 }

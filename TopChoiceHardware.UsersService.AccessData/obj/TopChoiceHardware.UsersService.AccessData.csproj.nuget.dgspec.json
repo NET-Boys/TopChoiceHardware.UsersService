@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\kerne\\Desktop\\Top Choice Users MicroService\\TopChoiceHardware.UsersService\\TopChoiceHardware.UsersService.AccessData\\TopChoiceHardware.UsersService.AccessData.csproj": {}
+    "C:\\Users\\kerne\\Desktop\\TopChoiceHardware.UsersService-main\\TopChoiceHardware.UsersService.AccessData\\TopChoiceHardware.UsersService.AccessData.csproj": {}
   },
   "projects": {
-    "C:\\Users\\kerne\\Desktop\\Top Choice Users MicroService\\TopChoiceHardware.UsersService\\TopChoiceHardware.UsersService.AccessData\\TopChoiceHardware.UsersService.AccessData.csproj": {
+    "C:\\Users\\kerne\\Desktop\\TopChoiceHardware.UsersService-main\\TopChoiceHardware.UsersService.AccessData\\TopChoiceHardware.UsersService.AccessData.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\kerne\\Desktop\\Top Choice Users MicroService\\TopChoiceHardware.UsersService\\TopChoiceHardware.UsersService.AccessData\\TopChoiceHardware.UsersService.AccessData.csproj",
+        "projectUniqueName": "C:\\Users\\kerne\\Desktop\\TopChoiceHardware.UsersService-main\\TopChoiceHardware.UsersService.AccessData\\TopChoiceHardware.UsersService.AccessData.csproj",
         "projectName": "TopChoiceHardware.UsersService.AccessData",
-        "projectPath": "C:\\Users\\kerne\\Desktop\\Top Choice Users MicroService\\TopChoiceHardware.UsersService\\TopChoiceHardware.UsersService.AccessData\\TopChoiceHardware.UsersService.AccessData.csproj",
+        "projectPath": "C:\\Users\\kerne\\Desktop\\TopChoiceHardware.UsersService-main\\TopChoiceHardware.UsersService.AccessData\\TopChoiceHardware.UsersService.AccessData.csproj",
         "packagesPath": "C:\\Users\\kerne\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\kerne\\Desktop\\Top Choice Users MicroService\\TopChoiceHardware.UsersService\\TopChoiceHardware.UsersService.AccessData\\obj\\",
+        "outputPath": "C:\\Users\\kerne\\Desktop\\TopChoiceHardware.UsersService-main\\TopChoiceHardware.UsersService.AccessData\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -32,11 +32,11 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "C:\\Users\\kerne\\Desktop\\Top Choice Users MicroService\\TopChoiceHardware.UsersService\\TopChoiceHardware.UsersService.Application\\TopChoiceHardware.UsersService.Application.csproj": {
-                "projectPath": "C:\\Users\\kerne\\Desktop\\Top Choice Users MicroService\\TopChoiceHardware.UsersService\\TopChoiceHardware.UsersService.Application\\TopChoiceHardware.UsersService.Application.csproj"
+              "C:\\Users\\kerne\\Desktop\\TopChoiceHardware.UsersService-main\\TopChoiceHardware.UsersService.Application\\TopChoiceHardware.UsersService.Application.csproj": {
+                "projectPath": "C:\\Users\\kerne\\Desktop\\TopChoiceHardware.UsersService-main\\TopChoiceHardware.UsersService.Application\\TopChoiceHardware.UsersService.Application.csproj"
               },
-              "C:\\Users\\kerne\\Desktop\\Top Choice Users MicroService\\TopChoiceHardware.UsersService\\TopChoiceHardware.UsersService.Domain\\TopChoiceHardware.UsersService.Domain.csproj": {
-                "projectPath": "C:\\Users\\kerne\\Desktop\\Top Choice Users MicroService\\TopChoiceHardware.UsersService\\TopChoiceHardware.UsersService.Domain\\TopChoiceHardware.UsersService.Domain.csproj"
+              "C:\\Users\\kerne\\Desktop\\TopChoiceHardware.UsersService-main\\TopChoiceHardware.UsersService.Domain\\TopChoiceHardware.UsersService.Domain.csproj": {
+                "projectPath": "C:\\Users\\kerne\\Desktop\\TopChoiceHardware.UsersService-main\\TopChoiceHardware.UsersService.Domain\\TopChoiceHardware.UsersService.Domain.csproj"
               }
             }
           }
@@ -87,14 +87,14 @@
         }
       }
     },
-    "C:\\Users\\kerne\\Desktop\\Top Choice Users MicroService\\TopChoiceHardware.UsersService\\TopChoiceHardware.UsersService.Application\\TopChoiceHardware.UsersService.Application.csproj": {
+    "C:\\Users\\kerne\\Desktop\\TopChoiceHardware.UsersService-main\\TopChoiceHardware.UsersService.Application\\TopChoiceHardware.UsersService.Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\kerne\\Desktop\\Top Choice Users MicroService\\TopChoiceHardware.UsersService\\TopChoiceHardware.UsersService.Application\\TopChoiceHardware.UsersService.Application.csproj",
+        "projectUniqueName": "C:\\Users\\kerne\\Desktop\\TopChoiceHardware.UsersService-main\\TopChoiceHardware.UsersService.Application\\TopChoiceHardware.UsersService.Application.csproj",
         "projectName": "TopChoiceHardware.UsersService.Application",
-        "projectPath": "C:\\Users\\kerne\\Desktop\\Top Choice Users MicroService\\TopChoiceHardware.UsersService\\TopChoiceHardware.UsersService.Application\\TopChoiceHardware.UsersService.Application.csproj",
+        "projectPath": "C:\\Users\\kerne\\Desktop\\TopChoiceHardware.UsersService-main\\TopChoiceHardware.UsersService.Application\\TopChoiceHardware.UsersService.Application.csproj",
         "packagesPath": "C:\\Users\\kerne\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\kerne\\Desktop\\Top Choice Users MicroService\\TopChoiceHardware.UsersService\\TopChoiceHardware.UsersService.Application\\obj\\",
+        "outputPath": "C:\\Users\\kerne\\Desktop\\TopChoiceHardware.UsersService-main\\TopChoiceHardware.UsersService.Application\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -115,8 +115,8 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "C:\\Users\\kerne\\Desktop\\Top Choice Users MicroService\\TopChoiceHardware.UsersService\\TopChoiceHardware.UsersService.Domain\\TopChoiceHardware.UsersService.Domain.csproj": {
-                "projectPath": "C:\\Users\\kerne\\Desktop\\Top Choice Users MicroService\\TopChoiceHardware.UsersService\\TopChoiceHardware.UsersService.Domain\\TopChoiceHardware.UsersService.Domain.csproj"
+              "C:\\Users\\kerne\\Desktop\\TopChoiceHardware.UsersService-main\\TopChoiceHardware.UsersService.Domain\\TopChoiceHardware.UsersService.Domain.csproj": {
+                "projectPath": "C:\\Users\\kerne\\Desktop\\TopChoiceHardware.UsersService-main\\TopChoiceHardware.UsersService.Domain\\TopChoiceHardware.UsersService.Domain.csproj"
               }
             }
           }
@@ -149,14 +149,14 @@
         }
       }
     },
-    "C:\\Users\\kerne\\Desktop\\Top Choice Users MicroService\\TopChoiceHardware.UsersService\\TopChoiceHardware.UsersService.Domain\\TopChoiceHardware.UsersService.Domain.csproj": {
+    "C:\\Users\\kerne\\Desktop\\TopChoiceHardware.UsersService-main\\TopChoiceHardware.UsersService.Domain\\TopChoiceHardware.UsersService.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\kerne\\Desktop\\Top Choice Users MicroService\\TopChoiceHardware.UsersService\\TopChoiceHardware.UsersService.Domain\\TopChoiceHardware.UsersService.Domain.csproj",
+        "projectUniqueName": "C:\\Users\\kerne\\Desktop\\TopChoiceHardware.UsersService-main\\TopChoiceHardware.UsersService.Domain\\TopChoiceHardware.UsersService.Domain.csproj",
         "projectName": "TopChoiceHardware.UsersService.Domain",
-        "projectPath": "C:\\Users\\kerne\\Desktop\\Top Choice Users MicroService\\TopChoiceHardware.UsersService\\TopChoiceHardware.UsersService.Domain\\TopChoiceHardware.UsersService.Domain.csproj",
+        "projectPath": "C:\\Users\\kerne\\Desktop\\TopChoiceHardware.UsersService-main\\TopChoiceHardware.UsersService.Domain\\TopChoiceHardware.UsersService.Domain.csproj",
         "packagesPath": "C:\\Users\\kerne\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\kerne\\Desktop\\Top Choice Users MicroService\\TopChoiceHardware.UsersService\\TopChoiceHardware.UsersService.Domain\\obj\\",
+        "outputPath": "C:\\Users\\kerne\\Desktop\\TopChoiceHardware.UsersService-main\\TopChoiceHardware.UsersService.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

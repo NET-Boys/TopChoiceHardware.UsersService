@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "C1Dut/7++C5gX/4r3N2Y4tZGsOhPqxUTA6HE7hgSBzl6C8vUiHBCEMWVTnhiFKvofnxqld21I/qGGhFVHnjGmQ==",
+  "dgSpecHash": "iOgz80FbF+eYh5GkTP0c61qY/tKvaFVmiscy8Pgv4pPzNXAw0K8vV7zf58p/JxNnCV/tyWsFF9EABgRUjA2zBQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\kerne\\Desktop\\Top Choice Users MicroService\\TopChoiceHardware.UsersService\\TopChoiceHardware.UsersService.AccessData\\TopChoiceHardware.UsersService.AccessData.csproj",
+  "projectFilePath": "C:\\Users\\kerne\\Desktop\\TopChoiceHardware.UsersService-main\\TopChoiceHardware.UsersService.AccessData\\TopChoiceHardware.UsersService.AccessData.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\kerne\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\kerne\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
