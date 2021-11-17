@@ -23,6 +23,5 @@ namespace TopChoiceHardware.UsersService.Domain.DTOs
 
         [StringLength(30, MinimumLength = 6)]
         public string Password { get; set; }
-        public int RoleId { get; set; }
     }
 }

@@ -40,7 +40,7 @@ namespace TopChoiceHardware.UsersService.Application.Services
                 DNI = usuario.DNI,
                 Email = usuario.Email,
                 Password = usuario.Password,
-                RoleId = usuario.RoleId
+                RoleId = 2
             };
 
             if(_validations.DniInDb(entity.DNI) && _validations.EmailInDB(entity.Email)) 

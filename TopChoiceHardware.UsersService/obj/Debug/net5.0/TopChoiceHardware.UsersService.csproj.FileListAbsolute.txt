@@ -136,3 +136,4 @@ C:\Users\kerne\Desktop\TopChoiceHardware.UsersService-main\TopChoiceHardware.Use
 C:\Users\kerne\Desktop\TopChoiceHardware.UsersService-main\TopChoiceHardware.UsersService\obj\Debug\net5.0\TopChoiceHardware.UsersService.pdb
 C:\Users\kerne\Desktop\TopChoiceHardware.UsersService-main\TopChoiceHardware.UsersService\obj\Debug\net5.0\TopChoiceHardware.UsersService.genruntimeconfig.cache
 C:\Users\kerne\Desktop\TopChoiceHardware.UsersService-main\TopChoiceHardware.UsersService\bin\Debug\net5.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\kerne\Desktop\TopChoiceHardware.UsersService-main\TopChoiceHardware.UsersService\obj\Debug\net5.0\TopChoiceHardware.UsersService.csproj.CopyComplete
