@@ -9,7 +9,7 @@ using TopChoiceHardware.UsersService.AccessData;
 namespace TopChoiceHardware.UsersService.AccessData.Migrations
 {
     [DbContext(typeof(UsuariosContext))]
-    [Migration("20211101005142_init")]
+    [Migration("20211205183109_init")]
     partial class init
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -65,11 +65,10 @@ namespace TopChoiceHardware.UsersService.AccessData.Migrations
 
                     b.Property<string>("DNI")
                         .IsRequired()
-                        .HasMaxLength(8)
+                        .HasMaxLength(9)
                         .IsUnicode(false)
-                        .HasColumnType("char(8)")
-                        .HasColumnName("DNI")
-                        .IsFixedLength(true);
+                        .HasColumnType("varchar(9)")
+                        .HasColumnName("DNI");
 
                     b.Property<string>("Email")
                         .IsRequired()

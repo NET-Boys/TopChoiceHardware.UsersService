@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\kerne\\Desktop\\TopChoiceHardware.UsersService-main\\TopChoiceHardware.UsersService.Domain\\TopChoiceHardware.UsersService.Domain.csproj": {}
+    "C:\\Users\\kerne\\Desktop\\Top Choice Services\\Usuarios\\TopChoiceHardware.UsersService\\TopChoiceHardware.UsersService.Domain\\TopChoiceHardware.UsersService.Domain.csproj": {}
   },
   "projects": {
-    "C:\\Users\\kerne\\Desktop\\TopChoiceHardware.UsersService-main\\TopChoiceHardware.UsersService.Domain\\TopChoiceHardware.UsersService.Domain.csproj": {
+    "C:\\Users\\kerne\\Desktop\\Top Choice Services\\Usuarios\\TopChoiceHardware.UsersService\\TopChoiceHardware.UsersService.Domain\\TopChoiceHardware.UsersService.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\kerne\\Desktop\\TopChoiceHardware.UsersService-main\\TopChoiceHardware.UsersService.Domain\\TopChoiceHardware.UsersService.Domain.csproj",
+        "projectUniqueName": "C:\\Users\\kerne\\Desktop\\Top Choice Services\\Usuarios\\TopChoiceHardware.UsersService\\TopChoiceHardware.UsersService.Domain\\TopChoiceHardware.UsersService.Domain.csproj",
         "projectName": "TopChoiceHardware.UsersService.Domain",
-        "projectPath": "C:\\Users\\kerne\\Desktop\\TopChoiceHardware.UsersService-main\\TopChoiceHardware.UsersService.Domain\\TopChoiceHardware.UsersService.Domain.csproj",
+        "projectPath": "C:\\Users\\kerne\\Desktop\\Top Choice Services\\Usuarios\\TopChoiceHardware.UsersService\\TopChoiceHardware.UsersService.Domain\\TopChoiceHardware.UsersService.Domain.csproj",
         "packagesPath": "C:\\Users\\kerne\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\kerne\\Desktop\\TopChoiceHardware.UsersService-main\\TopChoiceHardware.UsersService.Domain\\obj\\",
+        "outputPath": "C:\\Users\\kerne\\Desktop\\Top Choice Services\\Usuarios\\TopChoiceHardware.UsersService\\TopChoiceHardware.UsersService.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -58,7 +58,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.402\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.403\\RuntimeIdentifierGraph.json"
         }
       }
     }

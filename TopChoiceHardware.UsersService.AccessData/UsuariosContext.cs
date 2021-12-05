@@ -36,10 +36,9 @@ namespace TopChoiceHardware.UsersService.AccessData
 
                 entity.Property(e => e.DNI)
                     .IsRequired()
-                    .HasMaxLength(8)
+                    .HasMaxLength(9)
                     .IsUnicode(false)
-                    .HasColumnName("DNI")
-                    .IsFixedLength(true);
+                    .HasColumnName("DNI");
 
                 entity.Property(e => e.Email)
                     .IsRequired()

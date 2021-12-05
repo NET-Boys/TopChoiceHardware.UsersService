@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "jv8rh6iDz1ioRoLvUPerVlI2XdZLUS5BPXei00sN924+YEznQ4JX0Y5thf+Gj01UdSVPYVk4GnR9NsgnzI6JnA==",
+  "dgSpecHash": "Nzbacwv+8PfmhYWtIf4WxlEGn3Jbtr1LJdXBjzEQ51h/XkaHx+iDejGC6+dA6grD6V9RHA5mURYSDB0GXHgnyQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\kerne\\Desktop\\TopChoiceHardware.UsersService-main\\TopChoiceHardware.UsersService\\TopChoiceHardware.UsersService.csproj",
+  "projectFilePath": "C:\\Users\\kerne\\Desktop\\Top Choice Services\\Usuarios\\TopChoiceHardware.UsersService\\TopChoiceHardware.UsersService\\TopChoiceHardware.UsersService.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\kerne\\.nuget\\packages\\automapper\\10.1.1\\automapper.10.1.1.nupkg.sha512",
     "C:\\Users\\kerne\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\8.1.1\\automapper.extensions.microsoft.dependencyinjection.8.1.1.nupkg.sha512",

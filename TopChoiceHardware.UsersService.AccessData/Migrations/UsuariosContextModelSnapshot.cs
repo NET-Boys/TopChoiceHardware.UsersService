@@ -63,11 +63,10 @@ namespace TopChoiceHardware.UsersService.AccessData.Migrations
 
                     b.Property<string>("DNI")
                         .IsRequired()
-                        .HasMaxLength(8)
+                        .HasMaxLength(9)
                         .IsUnicode(false)
-                        .HasColumnType("char(8)")
-                        .HasColumnName("DNI")
-                        .IsFixedLength(true);
+                        .HasColumnType("varchar(9)")
+                        .HasColumnName("DNI");
 
                     b.Property<string>("Email")
                         .IsRequired()

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "uAZlTrvAAKSZijoTsgRUKVBVG4WSNiQCCqRWOX7UREav0IqBhkLv9e4WHLM+8nfNatyZkWnrUbcLfMMxmwxo1w==",
+  "dgSpecHash": "hsxOrNJxwYSWn6smNP5pJAgCjCLi+3K1LiDk+D3udj6I7E65by5c8YxROc6qRFS+JKntulJIEENaUacLFAXv4w==",
   "success": true,
-  "projectFilePath": "C:\\Users\\kerne\\Desktop\\TopChoiceHardware.UsersService-main\\TopChoiceHardware.UsersService.Application\\TopChoiceHardware.UsersService.Application.csproj",
+  "projectFilePath": "C:\\Users\\kerne\\Desktop\\Top Choice Services\\Usuarios\\TopChoiceHardware.UsersService\\TopChoiceHardware.UsersService.Application\\TopChoiceHardware.UsersService.Application.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

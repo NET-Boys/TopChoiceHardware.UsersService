@@ -28,7 +28,7 @@ namespace TopChoiceHardware.UsersService.AccessData.Migrations
                         .Annotation("SqlServer:Identity", "1, 1"),
                     Name = table.Column<string>(type: "nvarchar(50)", maxLength: 50, nullable: false),
                     Username = table.Column<string>(type: "nvarchar(50)", maxLength: 50, nullable: false),
-                    DNI = table.Column<string>(type: "char(8)", unicode: false, fixedLength: true, maxLength: 8, nullable: false),
+                    DNI = table.Column<string>(type: "varchar(9)", unicode: false, maxLength: 9, nullable: false),
                     Email = table.Column<string>(type: "nvarchar(50)", maxLength: 50, nullable: false),
                     Password = table.Column<string>(type: "nvarchar(50)", maxLength: 50, nullable: false),
                     RoleId = table.Column<int>(type: "int", nullable: false)
